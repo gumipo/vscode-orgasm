@@ -1,0 +1,4 @@
+rust/pkg
+node_modules
+dist
+rust/target
