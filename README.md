@@ -1,5 +1,6 @@
 # vscode-orgasm
 
+パッケージ入れてね
 ```
 $ npm install
 ```
@@ -19,7 +20,13 @@ $ cd rust
 wasm にコンパイル
 
 ```
-wasm-pack build --target nodejs
+$ wasm-pack build --target nodejs
+```
+
+戻ってね
+
+```
+$ cd ..
 ```
 
 ```
