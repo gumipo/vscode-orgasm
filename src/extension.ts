@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
-import { TypingBully } from "../rust/pkg/vscode_typing_bully";
+import { TypingOrgasm } from "../rust/pkg/vscode_orgasm";
 
-let bully: TypingBully | null = null;
+let bully: TypingOrgasm | null = null;
 let whiteDecorationType: vscode.TextEditorDecorationType | null = null;
 let isActive = false;
 
@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
     () => {
       try {
         if (!bully) {
-          bully = new TypingBully();
+          bully = new TypingOrgasm();
         }
         isActive = true;
         vscode.window.showInformationMessage("あん...はじめちゃう...♡");

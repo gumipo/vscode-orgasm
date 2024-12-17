@@ -1,13 +1,13 @@
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-pub struct TypingBully {
+pub struct TypingOrgasm {
     type_count: u32,
     last_milestone: u32,
 }
 
 #[wasm_bindgen]
-impl TypingBully {
+impl TypingOrgasm {
     #[wasm_bindgen(constructor)]
     pub fn new() -> Self {
         Self {
